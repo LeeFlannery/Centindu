@@ -69,10 +69,10 @@ ul, ol {
   list-style: none;
   padding: 0;
 }
-  li {
-    padding-bottom: .5em;
-    border-bottom: 1px solid #ededed;
-  }
+li {
+  padding-bottom: .5em;
+  border-bottom: 1px solid #ededed;
+}
 
 article {
   background: #fff;
@@ -80,7 +80,6 @@ article {
   padding: 3rem 3rem 1rem;
   margin-bottom: 3rem;
   margin-left: 10rem;
-  -webkit-box-shadow: 0 1px 1px #eaeaea;
   box-shadow: 0 1px 1px #eaeaea;
   h1 {
   text-transform: none;
@@ -88,53 +87,46 @@ article {
   font-weight: bold;
   margin: 0;
   }
-}
-
-  article header p {
+  header {
+    p {
     text-transform: uppercase;
     font-size: 1rem;
-  }
-  article header time {
-    position: absolute;
-    top: 0;
-    left: -10rem;
-    font: normal 400 2rem / 1.2 $gothic;
-    text-align: center;
-    background: #46a4d5;
-    color: #fff;
-    border-radius: 50%;
-    height: 7rem;
-    width: 7rem;
-    padding-top: 1.5rem;
-  }
-    article header time sub {
-      display: block;
-      text-transform: lowercase;
-      font-size: 1.2rem;
-      font-weight: 300;
     }
+    time {
+      position: absolute;
+      top: 0;
+      left: -10rem;
+      font: normal 400 2rem / 1.2 $gothic;
+      text-align: center;
+      background: #46a4d5;
+      color: #fff;
+      border-radius: 50%;
+      height: 7rem;
+      width: 7rem;
+      padding-top: 1.5rem;
+      sub {
+        display: block;
+        text-transform: lowercase;
+        font-size: 1.2rem;
+        font-weight: 300;
+      }
+    }
+  }
+}
 
 /* -----------------------------------------------------------------
 * Abstract Classes 
 * ----------------------------------------------------------------*/
 .viewport {
+  @include clearfix;
   margin: 0 auto;
   max-width: 98rem;
-}
-.viewport:before, .cf:before, 
-.viewport:after, .cf:after {
-  content: " "; 
-  display: table; 
-}
-.viewport:after, .cf:after {
-  clear: both;
 }
 
 .page-banner {
   border-top: 1px solid #46a4d5;
   background: transparent url(img/bg-header.jpg) repeat 0 0;
   border-bottom: 1px solid #ededed;
-  -webkit-box-shadow: inset 0 -1px 5px rgba(237,237,237,0.5);
   box-shadow: inset 0 -1px 5px rgba(237,237,237,0.5);
   margin-bottom: 6rem;
 }
