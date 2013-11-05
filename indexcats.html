@@ -1,0 +1,286 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <style>
+        body {
+            font-size: 10px;
+        }
+        header h1 {
+            font-size: 3rem;
+            display: inline-block;
+        }
+        header nav {
+            display: inline-block;
+        }
+        header ul {
+            list-style-type: none;
+        }
+        header li` {
+            display: inline-block;
+        }
+        header a {
+        }
+        #local-header h1 {
+            font-size: 2rem;
+            display: inline-block;
+        }
+        aside {
+            position: fixed;
+            top: 20px;
+            right: 10px;
+            width: 200px;
+        }
+        article {
+            position: relative;
+        }
+        article time {
+            position: absolute;
+            top: 0px;
+        }
+        .blog-post {
+            padding: 0 0 0 70px;
+        }
+    </style>
+</head>
+
+<body>
+<header>
+    <h1>
+        Centindu
+    </h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">Portfolio</a>
+                <ul style="display:none;">
+                    <li><a href="#">Portfolio sub one</a>
+                    </li>
+                    <li><a href="#">Portfolio sub two</a>
+                    </li>
+                    <li><a href="#">Portfolio sub three</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Features</a>
+                <ul style="display:none;">
+                    <li><a href="#">Features sub one</a>
+                    </li>
+                    <li><a href="#">Features sub two</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<section id="local-header">
+    <h1>Blog page</h1>
+    <h2>Donec iaculis metus vitae ligula elementum</h2>
+</section>
+
+<article>
+    <time>2014-08-08</time>
+    <div class="blog-post">
+        <img src="http://placekitten.com/600/200" />
+        <h1>Blog post title</h1>
+        <h2 class="attribution">Posted by <a href="#">Author</a> in <a href="#">Category</a>, <a href="3">24 comments</a>
+        </h2>
+        <p>Fusce vel pretium magna, et congue ipsum. Vestibulum pulvinar commodo urna id consectetur. Morbi sit amet consectetur neque.</p>
+        <a href="#">Continue reading ...</a>
+    </div>
+</article>
+
+<article>
+    <time>2014-08-08</time>
+    <img src="http://placekitten.com/600/200" />
+    <h1>Blog post title</h1>
+    <h2 class="attribution">Posted by <a href="#">Author</a> in <a href="#">Category</a>, <a href="3">24 comments</a>
+    </h2>
+    <p>Fusce vel pretium magna, et congue ipsum. Vestibulum pulvinar commodo urna id consectetur. Morbi sit amet consectetur neque.</p>
+    <a href="#">Continue reading ...</a>
+</article>
+
+<article>
+    <time>2014-08-08</time>
+    <img src="http://placekitten.com/600/200" />
+    <h1>Blog post title</h1>
+    <h2 class="attribution">Posted by <a href="#">Author</a> in <a href="#">Category</a>, <a href="3">24 comments</a>
+    </h2>
+    <p>Fusce vel pretium magna, et congue ipsum. Vestibulum pulvinar commodo urna id consectetur. Morbi sit amet consectetur neque.</p>
+    <a href="#">Continue reading ...</a>
+</article>
+
+<nav class="pagination">
+    <ul>
+        <li><a href="#">Previous</a>
+        </li>
+        <li><a href="#">1</a>
+        </li>
+        <li><a href="#">2</a>
+        </li>
+        <li><a href="#">3</a>
+        </li>
+        <li><a href="#">4</a>
+        </li>
+        <li><a href="#">Next</a>
+        </li>
+    </ul>
+</nav>
+<section id="local footer">
+    <section>
+        <h1>Latest tweets</h1>
+        <div>
+            <p>Tweet tweet</p>
+            <time>15 June 2012</time>
+        </div>
+        <div>
+            <p>Tweet tweet</p>
+            <time>15 June 2012</time>
+        </div>
+    </section>
+    <section>
+        <h1>Flickr photostream</h1>
+        <div>
+            <img src="http://placekitten.com/50" />
+            <img src="http://placekitten.com/50" />
+            <img src="http://placekitten.com/50" />
+            <img src="http://placekitten.com/50" />
+            <img src="http://placekitten.com/50" />
+            <img src="http://placekitten.com/50" />
+            <img src="http://placekitten.com/50" />
+            <img src="http://placekitten.com/50" />
+            <img src="http://placekitten.com/50" />
+        </div>
+    </section>
+    <section>
+        <h1>Text widget</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum erat elit, eleifend id faucibus id, hendrerit nec nibh. Nulla volutpat, mauris sed posuere gravida, tellus nisl mattis lacus, sit amet consectetur velit nunc vel metus.</p>
+        <p>Fusce vel pretium magna, et congue ipsum. Vestibulum pulvinar commodo urna id consectetur. Morbi sit amet consectetur neque.</p>
+    </section>
+    <section>
+        <h1>Contact us</h1>
+        <form>
+            <label for="name">Your name</label>
+            <input id="name">
+            <label for="email">Email address</label>
+            <input id="email" type="email">
+            <textarea id="comments">Comments</textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</section>
+
+
+<aside>
+    <section>
+        <h1>Popular Posts</h1>
+        <div>
+            <img src="http://placekitten.com/40" />
+            <a href="#">Blog post title</a>
+            on
+            <time>2011-09-14</time>
+        </div>
+        <div>
+            <img src="http://placekitten.com/40" />
+            <a href="#">Blog post title</a>
+            on
+            <time>2011-09-14</time>
+        </div>
+        <div>
+            <img src="http://placekitten.com/40" />
+            <a href="#">Blog post title</a>
+            on
+            <time>2011-09-14</time>
+        </div>
+    </section>
+    <section>
+        <h1>Categories</h1>
+        <ul>
+            <li><a href="#">Design</a>
+            </li>
+            <li><a href="#">Programming</a>
+            </li>
+            <li><a href="#">Print</a>
+            </li>
+            <li><a href="#">Marketing</a>
+            </li>
+            <li><a href="#">Application</a>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h1>Text Widget</h1>
+        <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+            sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+            tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+        </p>
+    </section>
+    <section>
+        <h1>Video</h1>
+        <div>
+            <img src="http://placekitten.com/270/180" />
+        </div>
+    </section>
+    <section>
+        <h1>Archives</h1>
+        <ul>
+            <li>
+                <a href="#">
+                    <time>2012-08-01</time>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <time>2012-07-01</time>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <time>2012-06-01</time>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <time>2012-05-01</time>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <time>2012-04-01</time>
+                </a>
+            </li>
+        </ul>
+    </section>
+</aside>
+
+<footer>
+    <small>&copy; Copyright 2012, "Devvine" by Dallilu. All rights reserved.</small>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a>
+            </li>
+            <li><a href="#">Blog</a>
+            </li>
+            <li><a href="#">Portfolio</a>
+            </li>
+            <li><a href="#">Features</a>
+            </li>
+            <li><a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</footer>
+</body>
+
+</html>
