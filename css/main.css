@@ -136,35 +136,30 @@ article {
 * ----------------------------------------------------------------*/
 div[role='banner'] {
   padding: 7.5rem 0 5rem; }
-
-div[role='banner'] h1 {
-  float: left;
-  width: auto;
-  margin: 0; }
-
-div[role='banner'] h1 a {
-  display: block;
-  width: 112px;
-  height: 32px;
-  background: transparent url(../img/logo.png) no-repeat 0 0;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden; }
-
-div[role='banner'] nav {
-  float: right;
-  width: auto; }
+  div[role='banner'] h1 {
+    float: left;
+    width: auto;
+    margin: 0; }
+    div[role='banner'] h1 a {
+      display: block;
+      width: 112px;
+      height: 32px;
+      background: transparent url(../img/logo.png) no-repeat 0 0;
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden; }
+  div[role='banner'] nav {
+    float: right;
+    width: auto; }
+    div[role='banner'] nav li {
+      display: none;
+      border: none; }
+      div[role='banner'] nav li:first-child {
+        display: inline-block; }
 
 div[role='banner'] nav > * {
   display: inline-block;
   margin: 0; }
-
-div[role='banner'] nav li {
-  display: none;
-  border: none; }
-
-div[role='banner'] nav li:first-child {
-  display: inline-block; }
 
 /* -----------------------------------------------------------------
 * Site Footer
@@ -172,12 +167,9 @@ div[role='banner'] nav li:first-child {
 footer[role='contentinfo'] div {
   float: left;
   width: 25%; }
-
 footer[role='contentinfo'] h1 {
   display: none; }
-
-footer[role='contentinfo'] p,
-footer[role='contentinfo'] nav {
+footer[role='contentinfo'] p, footer[role='contentinfo'] nav {
   clear: both; }
 
 /* -----------------------------------------------------------------
@@ -187,17 +179,14 @@ footer[role='contentinfo'] nav {
   padding: 0;
   border: none; }
 
-.slideshow, .media {
+.media {
   margin: -3rem -3rem 1.5rem; }
 
 .slideshow li {
   display: none; }
-
-.slideshow li:first-child {
-  display: block; }
-
+  .slideshow li:first-child {
+    display: block; }
 .slideshow img {
   display: block; }
-
 .slideshow a {
   display: none; }
